@@ -5,7 +5,7 @@ import java.util.ArrayList;
  Encapsula el estado y asegura que el acceso concurrente sea seguro.
  */
 public class DepositoCafe {
-    // Alamacenamos los cafés que están listos para consumir
+    // Almacenamos los cafés que están listos para consumir
     private ArrayList<String> deposito = new ArrayList<String>();
     // Capacidad máxima del depósito.
     private int capacidad;
